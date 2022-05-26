@@ -135,7 +135,7 @@ const secondUser={
     favoriteColor:favoriteColor2,
     isHavePet:"Yes",
     education:setEd2,
-    favoriteRestaurant:favoriteRestaurant2,
+    favoriteRestaurant:favoriteRestaurant2
 }
 
 console.log(secondUser);
