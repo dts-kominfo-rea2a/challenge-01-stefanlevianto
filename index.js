@@ -54,7 +54,7 @@ favoriteRestaurant1.add("Tteok");
 favoriteRestaurant1.add("Sushi");
 favoriteRestaurant1.add("Sushi");
 
-const firstUser=new Map();
+/* const firstUser=new Map();
 
 firstUser.set("name", "Monica");
 firstUser.set("gender","Female");
@@ -64,8 +64,18 @@ firstUser.set("favoriteColor",favoriteColor1);
 firstUser.set("isHavePet","Yes");
 firstUser.set("education",setEd1);
 firstUser.set("favoriteRestaurant",favoriteRestaurant1);
+console.log(firstUser); */
+const firstUser={
+    name: "Monica",
+    gender:"Female",
+    age:17,
+    email:"monica@dingdong.com",
+    favoriteColor:favoriteColor1,
+    isHavePet:"Yes",
+    education:setEd1,
+    favoriteRestaurant:favoriteRestaurant1
+}
 console.log(firstUser);
-
 //USER 2
 const favoriteColor2 = new Set();
 favoriteColor2.add("Blue");
@@ -108,7 +118,7 @@ favoriteRestaurant2.add("Geprek");
 favoriteRestaurant2.add("Pancake");
 favoriteRestaurant2.add("Eggy");
 
-const secondUser=new Map();
+/* const secondUser=new Map();
 secondUser.set("name", "Wendy");
 secondUser.set("gender","Male");
 secondUser.set("age",23);
@@ -116,11 +126,23 @@ secondUser.set("email","wendy@dingdong.com");
 secondUser.set("favoriteColor",favoriteColor2);
 secondUser.set("isHavePet","Yes");
 secondUser.set("education",setEd2);
-secondUser.set("favoriteRestaurant",favoriteRestaurant2);
+secondUser.set("favoriteRestaurant",favoriteRestaurant2); */
+const secondUser={
+    name: "Wendy",
+    gender:"Male",
+    age:23,
+    email:"wendy@dingdong.com",
+    favoriteColor:favoriteColor2,
+    isHavePet:"Yes",
+    education:setEd2,
+    favoriteRestaurant:favoriteRestaurant2,
+}
+
 console.log(secondUser);
 
 // TODO: Masukkan hasil akhir dari kedua user di sini
 const users = [firstUser,secondUser];
+console.log(users);
 
 // ! JANGAN MODIFIKASI LINE DI BAWAH
 function main() {
